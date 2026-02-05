@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#ff9a9e, #fad0c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#start-btn {
+  background: #ff4d6d;
+  font-size: 18px;
+}
+
+.game {
+   background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  position: relative; /* 🔥 CLAVE */
+}
+
+h1 {
+  color: #ff4d6d;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #ff4d6d;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#final-screen h1 {
+  color: #ff4d6d;
+}
+
+#final-screen p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+
+button:hover {
+  background: #e63950;
+}
+
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#love-screen p {
+  font-size: 22px;
+  color: #ff4d6d;
+}
+
+
+#no-btn {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #ff4d6d;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Valentine´s Day 💘</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PANTALLA INICIO -->
+  <div class="game" id="start-screen">
+    <h1>Valentine´s Game 💘</h1>
+    <button id="start-btn">Start</button>
+  </div>
+
+  <!-- PANTALLA QUIZ -->
+  <div class="game" id="quiz-screen" style="display: none;">
+    <h1>Valentine´s Game 💘</h1>
+    <p id="question"></p>
+    <div id="answers"></div>
+    <p id="message"></p>
+  </div>
+
+  <!-- PANTALLA INVITACIÓN -->
+ <div class="game" id="final-screen" style="display: none;">
+  <h1>🎉 ¡Felicidades! 🎉</h1>
+  <p>
+    Has ganado una invitación para pasar el <strong>14 de febrero</strong> conmigo 💕
+  </p>
+
+  <button id="yes-btn">Sí, obvioo!</button>
+  <button id="no-btn">No, gracias</button>
+
+ </div>
+
+  <div id="no-screen" class="game" style="display: none;">
+    <p id="final-message">Como que no, quieres que me enoje contigo😤</p>
+    <button id="back-btn">Regresar</button>
+  </div>
+
+  <!-- PANTALLA FINAL -->
+  <div class="game" id="love-screen" style="display: none;">
+    <h1>💖💖💖</h1>
+    <p>Ya sabia que ibas a decir que si, te quiero mucho mucho 💖 </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
