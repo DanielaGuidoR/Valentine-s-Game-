@@ -102,8 +102,27 @@ document.addEventListener("DOMContentLoaded", () => {
   function showLove() {
     finalScreen.style.display = "none";
     loveScreen.style.display = "block";
+    createHearts();
   }
+function createHearts() {
+  const heartsContainer = document.querySelector(".hearts");
 
+  setInterval(() => {
+    const heart = document.createElement("div");
+    heart.classList.add("heart");
+    heart.textContent = "❤️";
+
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = Math.random() * 20 + 20 + "px";
+
+    heartsContainer.appendChild(heart);
+
+    setTimeout(() => {
+      heart.remove();
+    }, 4000);
+  }, 300);
+}
 });
+
 
 
