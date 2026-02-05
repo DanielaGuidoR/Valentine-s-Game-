@@ -113,7 +113,7 @@ function createHearts() {
     heart.textContent = "❤️";
 
     heart.style.left = Math.random() * 100 + "vw";
-    heart.style.fontSize = Math.random() * 20 + 20 + "px";
+
 
     heartsContainer.appendChild(heart);
 
@@ -123,6 +123,7 @@ function createHearts() {
   }, 300);
 }
 });
+
 
 
 
