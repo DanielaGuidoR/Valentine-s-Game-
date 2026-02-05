@@ -90,12 +90,25 @@ button:hover {
 
 .heart {
   position: absolute;
-  bottom: -20px;
+  bottom: -30px;
   font-size: 20px;
-  animation: floatUp 5s linear infinite;
+  animation: subir 5s linear forwards;
 }
 
+@keyframes subir {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-110vh);
+    opacity: 0;
+  }
 }
+
+
+}
+
 
 
 
