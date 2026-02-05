@@ -91,20 +91,12 @@ button:hover {
 .heart {
   position: absolute;
   bottom: -20px;
-  font-size: 24px;
-  animation: floatUp 4s linear infinite;
+  font-size: 20px;
+  animation: floatUp 5s linear infinite;
 }
 
-@keyframes floatUp {
-  from {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  to {
-    transform: translateY(-100vh);
-    opacity: 0;
-  }
 }
+
 
 
 
